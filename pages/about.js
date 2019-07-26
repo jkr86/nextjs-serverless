@@ -1,6 +1,16 @@
+import { useEffect, useState } from 'react';
 import Head from 'next/head';
 
 function About() {
+    const [about, setAbout] = useState([]);
+    useEffect(() => {
+        async function getAbout() {
+            const res = await fetch('/about');
+            const newAbout = await res.json();
+            setAbout(newAbout);
+        }
+        getAbout();
+    }, []);
     return (
         <main>
             <Head>
