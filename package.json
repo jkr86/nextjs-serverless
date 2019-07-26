@@ -8,6 +8,7 @@
   "dependencies": {
     "next": "^9.0.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "serverless": "^1.48.4"
   }
 }

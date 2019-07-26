@@ -6,11 +6,11 @@ function About() {
             <Head>
                 <title>About</title>
             </Head>
-            <h1>Page Deployed Successfully</h1>
+            <h1>About Page Works</h1>
             <style jsx>{`
                    h1{
                    color: cyan;
-                   font-size: 12em;
+                   font-size: 4em;
                    text-align:center;
                    }
       `}</style>
