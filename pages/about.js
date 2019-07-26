@@ -6,9 +6,13 @@ function About() {
             <Head>
                 <title>About</title>
             </Head>
-            <h1>Fuck Off</h1>
+            <h1>Page Deployed Successfully</h1>
             <style jsx>{`
-
+                   h1{
+                   color: cyan;
+                   font-size: 12em;
+                   text-align:center;
+                   }
       `}</style>
         </main>
     );
